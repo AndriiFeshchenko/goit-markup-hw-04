@@ -658,9 +658,14 @@ img {
 .icon-clients {
   fill: currentColor;
 }
+.icon-link:hover .icon-clients,
+.icon-link:focus .icon-clients {
+  fill: var(--blue);
+}
 .icon-link:hover,
 .icon-link:focus {
-  fill: var(--blue);
+  background-color: var(--white);
+  border: 1px solid #2196f3;
 }
 
 .conainer-time-item {
