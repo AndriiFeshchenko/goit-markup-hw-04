@@ -99,12 +99,14 @@ img {
   height: 11px;
   margin-right: 10px;
   fill: var(--grey);
+  vertical-align: middle;
 }
 .icon-contact-smart {
   width: 10px;
   height: 16px;
   margin-right: 10px;
   fill: var(--grey);
+  vertical-align: middle;
 }
 
 .icon-contacts-link:hover .icon-contact,
@@ -128,8 +130,8 @@ img {
   color: var(--grey);
 
   margin-left: auto;
-  padding-top: 32px;
-  padding-bottom: 32px;
+  /* padding-top: 32px;
+  padding-bottom: 32px; */
 }
 
 .contacts-nav .link + .link {
@@ -506,7 +508,7 @@ img {
 
 .section-team {
   width: 1600px;
-  height: 648px;
+  height: 708px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 0px;
@@ -793,6 +795,7 @@ img {
 }
 .footer-logo-link {
   margin-bottom: 20px;
+  text-decoration: none;
 }
 .footer-social {
   margin-left: 70px;
@@ -800,4 +803,7 @@ img {
 }
 .footer-adress {
   margin-bottom: 9px;
+}
+.link-element {
+  font-size: 16px;
 }
